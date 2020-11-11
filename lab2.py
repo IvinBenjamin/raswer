@@ -26,8 +26,6 @@ for i in students:
 for i in students: 
     if students[i] == topOne: 
         topStudent[i] = students[i]
-
-print("\/======================Winners===========================\/")
-
+        
 for i in topStudent: 
     print("The Winner Is: --> {} Whith Points = {}".format(i, topStudent[i]))
